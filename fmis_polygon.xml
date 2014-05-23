@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+  version="1.0.0">
+	<NamedLayer>
+		<Name>fornlämningar, ytor</Name>
+		<UserStyle>
+			<Title>Fornlämningar, ytor</Title>
+
+			<FeatureTypeStyle>
+
+				<Rule>
+					<Name>nivå 10 och större skala</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>500000</MinScaleDenominator>  
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">1</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>4</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>1</Opacity>
+							<Size>8</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 11</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>270000</MinScaleDenominator> 
+					<MaxScaleDenominator>500000</MaxScaleDenominator>  
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">1</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>4</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+					
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>1</Opacity>
+							<Size>12</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>        
+
+				<Rule>
+					<Name>zoomnivå 12</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>130000</MinScaleDenominator> 
+					<MaxScaleDenominator>270000</MaxScaleDenominator> 
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">1</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>4</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>1</Opacity>
+							<Size>14</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 13</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>68000</MinScaleDenominator> 
+					<MaxScaleDenominator>130000</MaxScaleDenominator>  
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">1</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>4</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>1</Opacity>
+							<Size>16</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 14</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>34000</MinScaleDenominator> 
+					<MaxScaleDenominator>68000</MaxScaleDenominator>   
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">.9</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>4</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>0.8</Opacity>
+							<Size>18</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 15</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>17000</MinScaleDenominator> 
+					<MaxScaleDenominator>34000</MaxScaleDenominator>   
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">.8</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>4</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>0.6</Opacity>
+							<Size>20</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 16</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>8000</MinScaleDenominator> 
+					<MaxScaleDenominator>17000</MaxScaleDenominator> 
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">.7</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>5</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+					
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>0.4</Opacity>
+							<Size>22</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 17</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>4000</MinScaleDenominator> 
+					<MaxScaleDenominator>8000</MaxScaleDenominator>  
+
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">.6</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>6</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+					
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>0.3</Opacity>
+							<Size>25</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 18</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MinScaleDenominator>2000</MinScaleDenominator> 
+					<MaxScaleDenominator>4000</MaxScaleDenominator>  
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">.5</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>7</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+					
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>0.3</Opacity>
+							<Size>40</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+				<Rule>
+					<Name>zoomnivå 19</Name>
+					<Title>fornlämningar, ytor</Title>
+					<MaxScaleDenominator>2000</MaxScaleDenominator>  
+					<PolygonSymbolizer>
+						<Fill>
+							<GraphicFill>
+								<Graphic>
+									<Mark>
+										<WellKnownName>shape://slash</WellKnownName>
+										<Stroke>
+											<CssParameter name="stroke">#8f6d46</CssParameter>
+											<CssParameter name="stroke-width">2</CssParameter>
+											<CssParameter name="stroke-opacity">.4</CssParameter>
+										</Stroke>
+									</Mark>
+									<Size>8</Size>
+								</Graphic>
+							</GraphicFill>
+						</Fill> 
+					</PolygonSymbolizer>
+
+					<PointSymbolizer> 
+						<Graphic> 
+							<ExternalGraphic> 
+								<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning_yta.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic> 
+							<Opacity>0.3</Opacity>
+							<Size>80</Size> 
+						</Graphic> 
+					</PointSymbolizer> 
+				</Rule>
+
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

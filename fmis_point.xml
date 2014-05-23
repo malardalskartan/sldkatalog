@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" 
+xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" version="1.0.0">
+	<sld:UserLayer>
+		<sld:LayerFeatureConstraints>
+			<sld:FeatureTypeConstraint/>
+		</sld:LayerFeatureConstraints>
+		<sld:UserStyle>
+			<sld:Title>Fornlämning, punkt</sld:Title>
+
+			<sld:FeatureTypeStyle>
+				<sld:Name>Fornlämning, punkt</sld:Name>
+				<sld:FeatureTypeName>Feature</sld:FeatureTypeName>
+
+				<sld:Rule>
+					<sld:Name>zoom 9 och mindre</sld:Name>
+					<MinScaleDenominator>1000000</MinScaleDenominator> 
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>5</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 10</sld:Name>
+					<MinScaleDenominator>500000</MinScaleDenominator> 
+					<MaxScaleDenominator>1000000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>10</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule>         
+
+				<sld:Rule>
+					<sld:Name>zoom 11</sld:Name>
+					<MinScaleDenominator>270000</MinScaleDenominator> 
+					<MaxScaleDenominator>500000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>20</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 12</sld:Name>
+					<MinScaleDenominator>130000</MinScaleDenominator> 
+					<MaxScaleDenominator>270000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>23</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule>         
+
+				<sld:Rule>
+					<sld:Name>zoom 13</sld:Name>
+					<MinScaleDenominator>68000</MinScaleDenominator> 
+					<MaxScaleDenominator>130000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>25</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 14</sld:Name>
+					<MinScaleDenominator>34000</MinScaleDenominator> 
+					<MaxScaleDenominator>68000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>30</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 15</sld:Name>
+					<MinScaleDenominator>17000</MinScaleDenominator> 
+					<MaxScaleDenominator>34000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>35</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 16</sld:Name>
+					<MinScaleDenominator>8000</MinScaleDenominator> 
+					<MaxScaleDenominator>17000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>40</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 17</sld:Name>
+					<MinScaleDenominator>4000</MinScaleDenominator> 
+					<MaxScaleDenominator>8000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>45</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 18</sld:Name>
+					<MinScaleDenominator>2000</MinScaleDenominator> 
+					<MaxScaleDenominator>4000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>60</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule> 
+
+				<sld:Rule>
+					<sld:Name>zoom 19</sld:Name>
+					<MaxScaleDenominator>2000</MaxScaleDenominator>  
+					<sld:PointSymbolizer>
+						<sld:Graphic>
+							<sld:ExternalGraphic>
+								<sld:OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="svg/fornlamning.svg"/>
+								<sld:Format>image/svg+xml</sld:Format>
+							</sld:ExternalGraphic>
+							<sld:Size>
+								<ogc:Literal>100</ogc:Literal>
+							</sld:Size>
+						</sld:Graphic>
+					</sld:PointSymbolizer>               
+				</sld:Rule>      
+
+			</sld:FeatureTypeStyle>
+		</sld:UserStyle>
+	</sld:UserLayer>
+</sld:StyledLayerDescriptor>
