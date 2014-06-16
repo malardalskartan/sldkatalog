@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+version="1.0.0">
+  <NamedLayer>
+    <Name>Fmis linjer</Name>
+    <UserStyle>
+      <Name>Fmis linjer</Name>
+      <FeatureTypeStyle>
+        
+        <Rule>
+          <Name>skalsteg 10</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>500000</MinScaleDenominator>  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg 11</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>270000</MinScaleDenominator> 
+          <MaxScaleDenominator>500000</MaxScaleDenominator>  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">2</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>        
+        
+        <Rule>
+          <Name>skalsteg 12</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>130000</MinScaleDenominator> 
+          <MaxScaleDenominator>270000</MaxScaleDenominator> 
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+ 
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg 13</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>68000</MinScaleDenominator> 
+          <MaxScaleDenominator>130000</MaxScaleDenominator>  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">3</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg 14</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>34000</MinScaleDenominator> 
+          <MaxScaleDenominator>68000</MaxScaleDenominator>   
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg 15</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>17000</MinScaleDenominator> 
+          <MaxScaleDenominator>34000</MaxScaleDenominator>   
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">4</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+ 
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg  16</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>8000</MinScaleDenominator> 
+          <MaxScaleDenominator>17000</MaxScaleDenominator> 
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+ 
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg  17</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>4000</MinScaleDenominator> 
+          <MaxScaleDenominator>8000</MaxScaleDenominator>  
+          
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">5</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg  18</Name>
+          <Title>fornminnen</Title>
+
+          <MinScaleDenominator>2000</MinScaleDenominator> 
+          <MaxScaleDenominator>4000</MaxScaleDenominator>  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">6</CssParameter>
+
+ 
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>
+        
+        <Rule>
+          <Name>skalsteg  19</Name>
+          <Title>fornminnen</Title>
+
+          <MaxScaleDenominator>2000</MaxScaleDenominator>  
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#8f6d46</CssParameter>
+              <CssParameter name="stroke-width">6</CssParameter>
+
+
+            </Stroke>
+          </LineSymbolizer>                   
+
+        </Rule>
+
+        
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
